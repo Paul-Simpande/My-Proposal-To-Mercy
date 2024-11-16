@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Question</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <h1 class="animate__animated animate__fadeIn">QUESTION</h1>
+        <p class="questionP animate__animated animate__fadeIn animate__delay-1s">I’ve been thinking about how well we balance each other out. You’ve 
+            got the vision, and I’ve got the skills to make things happen. 
+            I think it’s time we take our project to the next level and make 
+            it official. What do you think?<br>😊😊😊😊</p>
+        <button id="yes" class="video-button" onclick="respondYes()">
+            <video class="button-video" autoplay loop muted>
+                <source src="heart.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <audio id="yaySound" src="CROWD%20CHEER%20SOUND%20EFFECT.mp3"></audio>
+        </button>
+        <button id="no" class="video-button" onclick="respondNo()">
+            <video class="button-video" autoplay loop muted>
+                <source src="broken-heart.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <audio id="sadSound" src="ahh%20sad%20sound%20effect.mp3"></audio>
+        </button>
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+        <!-- Fireworks container -->
+        <canvas id="fireworksCanvas"></canvas>
+        <p class="email">Note which ever answer you pick will be sent to Moses via Email</p>
+    </body>
+</html>
