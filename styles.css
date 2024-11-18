@@ -85,7 +85,6 @@ button.next{
     cursor: pointer;
     align-items: center;
     justify-content: center;
-    transition: transform 0.6s ease-in-out, border-radius 0.6s ease-in-out;
 }
 .next .button-video {
     position: absolute;
@@ -123,7 +122,7 @@ button.next:hover{
     z-index: -1;
     transition: transform 0.6s ease-in-out;
 }
-.video-button:hover {
+button.video-button:hover {
     border-color: #c2185b;
     transform: scale(1.2);
 }
