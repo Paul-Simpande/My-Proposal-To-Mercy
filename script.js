@@ -75,8 +75,8 @@ function respondYes() {
     createParticle(centerX, centerY);
     loop();
 
-    sendAnswer('Yes! And she will be with a sorry ass excuse of a boyfriend like you');
     alert('You’ve already debugged my heart, and now I’m ready to commit to this lifelong project with you. Let’s merge our lives and deploy the most amazing future together. 💻❤️');
+    sendAnswer('Yes! And she will be with a sorry ass excuse of a boyfriend like you');
 }
 
 function respondNo() {
