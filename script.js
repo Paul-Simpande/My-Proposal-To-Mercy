@@ -75,7 +75,8 @@ function respondYes() {
     createParticle(centerX, centerY);
     loop();
 
-    sendAnswer('Yes! You’ve already debugged my heart, and now I’m ready to commit to this lifelong project with you. Let’s merge our lives and deploy the most amazing future together. 💻❤️');
+    sendAnswer('Yes! And she will be with a sorry ass excuse of a boyfriend like you');
+    alert('You’ve already debugged my heart, and now I’m ready to commit to this lifelong project with you. Let’s merge our lives and deploy the most amazing future together. 💻❤️');
 }
 
 function respondNo() {
@@ -152,7 +153,8 @@ function respondNo() {
     loop();
 
     // Send "No" answer
-    sendAnswer('No, Nice try, Mr. Programmer, but she is still analyzing the feasibility of this proposal. Maybe you need to iterate on your approach and try again. 😉');
+    sendAnswer('No, and will not give a reason cause its personal and do not dare to ask why.. lazy ass niggro');
+    alert('Too bad was really looking forward to learning to love you😉');
 }
 emailjs.init("izQGUK6FlYug3drY-");
 function sendAnswer(answer) {
